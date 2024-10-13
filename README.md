@@ -26,6 +26,20 @@ Pada menu pasien, user cuma diberi 3 fitur seperti gambar ini. User juga diminta
 ## Penjelasan Job Pasien
 1. Tambah Pasien
 
-![Screenshot_113](https://github.com/user-attachments/assets/c3ff222a-6dbc-4e6c-a2b7-93dda8404446)
+   ![Screenshot_113](https://github.com/user-attachments/assets/c3ff222a-6dbc-4e6c-a2b7-93dda8404446)
 
-Kalau mau masuk ke menu "Tambah Pasien" input angka 1
+   Kalau mau masuk ke menu "Tambah Pasien" input angka 1
+   
+   ![Screenshot_115](https://github.com/user-attachments/assets/85c00cd1-8a03-401e-8fd5-fad3256ec58e)
+
+   nah user sebagai pasien disini akan diminta untuk input nomor antrian, nama pasien dan memasukkan keluhan/penyakit.
+   Kalau udah selesai maka akan kembali ke menu.
+
+2. Lihat Antrian
+
+   ![Screenshot_116](https://github.com/user-attachments/assets/b47dd8cd-211a-4097-87d7-b43c0865593b)
+
+   Jika milih no 2 di menu akan menampilkan antrian seperti diatas yang sudah diisi pada saat memilih no 1 dan menambah pasien.
+   Setelah menampilkan antrian sehabis itu akan langsung looping dan balik ke menu.
+
+3. 
