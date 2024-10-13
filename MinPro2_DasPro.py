@@ -90,7 +90,7 @@ def menu(job):
             break
         # pilihan tidak valid atau tidak ada
         else:
-            print("Pilihan tidak valid, silakan coba lagi.")
+            print("Pilihan tidak ada, silakan coba lagi.")
 
 # fungsi untuk memilih job saat program dimulai
 def pilih_job_login():
@@ -113,7 +113,7 @@ def pilih_job_login():
         elif job == '2':
             return "admin"
         else:
-            print("Pilihan tidak valid atau tidak ada, silakan coba lagi.")
+            print("Pilihan tidak ada untuk job tersebut, coba lagi.")
 
 # menjalankan program
 job_terpilih = pilih_job_login()  # memilih job di awal
