@@ -12,11 +12,9 @@ def lihat_antrian():
         # membuat tabel dengan PrettyTable
         table = PrettyTable()
         table.field_names = ["Nomor Antri", "Nama Pasien", "Keluhan"]
-        
         # menambahkan data dari dictionary ke dalam tabel
         for nomor, info in antrian_pasien.items():
             table.add_row([nomor, info['Nama'], info['Keluhan']]) # menggunakan prettytable di antrian tabel
-
         # menampilkan tabel
         print(table)
     else:
@@ -28,11 +26,9 @@ def update_pasien(nomor, nama_baru=None, keluhan_baru=None):
         # Jika ada nama baru, update nama
         if nama_baru:
             antrian_pasien[nomor]['Nama'] = nama_baru
-        
         # Jika ada keluhan baru, update keluhan
         if keluhan_baru:
             antrian_pasien[nomor]['Keluhan'] = keluhan_baru
-        
         print(f"Data pasien nomor antri {nomor} berhasil diperbarui.")
     else:
         print(f"Pasien dengan nomor antri {nomor} tidak ditemukan.") # jika menggunakan update dan tidak ada nomor yang dicari
