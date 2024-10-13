@@ -11,7 +11,7 @@ Tema : Sistem Antri Rumah Sakit
 ![Screenshot_110](https://github.com/user-attachments/assets/bef7bc44-158e-4817-8aa7-4d43432b9984)
 
 
-# Penjelasan menu login job
+## Penjelasan menu login job
 1. Pasien : hana bisa menambah dan melihat antrian
 2. Admin : Bisa apa saja atau melakukan CRUD(Create, Read, Update, Delete) pada dictionary/database antrian
    > Jika user input angka selain yang ada di pilihan(1 dan 2) maka akan looping
@@ -23,7 +23,7 @@ Tema : Sistem Antri Rumah Sakit
 
 Pada menu pasien, user cuma diberi 3 fitur seperti gambar ini. User juga diminta untuk input fitur aatau pilihan yang tersedia menggunakan angka
 
-## Penjelasan Job Pasien
+## Penjelasan Job Pasien Per pilihan
 1. Tambah Pasien
 
    ![Screenshot_113](https://github.com/user-attachments/assets/c3ff222a-6dbc-4e6c-a2b7-93dda8404446)
@@ -39,7 +39,18 @@ Pada menu pasien, user cuma diberi 3 fitur seperti gambar ini. User juga diminta
 
    ![Screenshot_116](https://github.com/user-attachments/assets/b47dd8cd-211a-4097-87d7-b43c0865593b)
 
-   Jika milih no 2 di menu akan menampilkan antrian seperti diatas yang sudah diisi pada saat memilih no 1 dan menambah pasien.
+   Jika milih no. 2 di menu akan menampilkan antrian seperti diatas yang sudah diisi pada saat memilih no 1 dan menambah pasien.
    Setelah menampilkan antrian sehabis itu akan langsung looping dan balik ke menu.
 
-3. 
+5. Keluar
+
+   ![Screenshot_117](https://github.com/user-attachments/assets/07625ab0-851f-4dbe-a9b5-d9be5fbbfeba)
+
+   Kalau milih no. 5 maka akan keluar program seperti gambar diatas ini.
+
+# Mode Admin
+![Screenshot_118](https://github.com/user-attachments/assets/e2094814-5b74-44d3-ad99-0c362732037a)
+
+Untuk mode admin, user akan diberi 5 menu pilihan dan disini sayya akan menjelaskan menu nomor 3 dan 4 dikarenakan nomor 1, 2, dan 5 sudah dijelaskan dan cara kerjanya sama dengan punya pasien.
+
+## penjelasan Job Admin Per pilihan
