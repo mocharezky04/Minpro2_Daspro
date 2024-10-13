@@ -111,7 +111,6 @@ def pilih_job_login():
         table.add_row(["2", "Admin"])
         print(table)
         job = input("Masukkan pilihan (1 atau 2): ")
-        print("\n") # saya masih mikir bagus gini atau dempet aja
         # proses input
         if job == '1':
             return "pasien"
