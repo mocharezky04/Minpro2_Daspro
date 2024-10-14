@@ -6,7 +6,7 @@ NIM : 2409116029 Kelas : A
 Tema : Sistem Antri Rumah Sakit
 
 # Flowchart
-![sistem antrian (4) (1)](https://github.com/user-attachments/assets/c15584cb-4534-403b-bd37-4f653308cbbb)
+![sistem antrian 4](https://github.com/user-attachments/assets/910b2650-315a-4153-b9fd-d1f4fc8e8657)
 
 # Menu Login Job
 ![Screenshot_110](https://github.com/user-attachments/assets/bef7bc44-158e-4817-8aa7-4d43432b9984)
